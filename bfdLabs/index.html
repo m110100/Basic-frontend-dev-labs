@@ -5,23 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-
 </head>
 
-<frameset rows = "100, *, 100">
+<!-- <frameset rows = "40, 100">
     
     <frame src = "top.html" name = "boot">
-        <frameset cols="40%, 60%">
+
+    <frameset cols ="30%, 70%">
+            
+        <frameset rows = "50%, 50%"> 
+
+            <frame>
+            <frame>
 
         </frameset>
+            
+    </frameset>
 
-    
 
 <noframes>
     Sorry, there is not a frame support in ur browser.
     Текст для случая, когда браузер не поддерживает фрейма.
 </noframes>
 
+</frameset> -->
+
+<frameset rows = "30%, 70%" frameborder = "yes" border = "2">
+
+    <frame src = "number.html" name = "boot">
+
+    <frameset cols = "30%, 70%" frameborder = "yes" border = "2">
+
+        <frameset rows = "50%, 50%" frameborder = "yes" border = "2">
+
+            <frame src = "name.html" name = "left_1">
+
+            <frame src = "list.html" name = "left_2">
+
+        </frameset>
+
+        <frame src = "table.html" name = "right">
+    
+    </frameset>
+    
 </frameset>
 
 </html>
