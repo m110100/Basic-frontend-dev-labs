@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 *,
@@ -14,16 +13,21 @@ html {
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
     color: #ffffff;
 }
 
 h1,
 h2 {
     font-weight: 700;
+}
+
+p {
+    font-weight: 400;
 }
 
 .wrapper {
@@ -35,9 +39,6 @@ h2 {
 /* HEADER */
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #87509c;
 }
@@ -99,6 +100,7 @@ h2 {
     text-align: center;
     font-size: 42px;
     padding-top: 240px;
+    letter-spacing: 2px;
 }
 
 .intro__button {
@@ -119,7 +121,7 @@ h2 {
     letter-spacing: 1px;
     outline: none;
     color: #ffffff;
-    box-shadow: 0 5px #cf6e42;
+    border-bottom: 4px solid #cf6e42;
     background-color: #eb7d4b;
 }
 
@@ -141,11 +143,62 @@ h2 {
     background-color: #d74680;
 }
 
+.testimonials__wrapper {
+    max-width: 1120px;
+    background-color: #d74680;
+}
+
+.testimonials__title {
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 120px;
+    letter-spacing: 5px;
+}
+
+.testimonials__text {
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+
+.testimonials__line {
+    margin-top: 22px;
+    width: 87px;
+    height: 4px;
+    background-color: #b73c6d;
+    border: none;
+}
+
+.testimonials__members {
+    padding: 85px 100px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonials__member-title {}
+
+.testimonials__member-name {
+    color: #ffffff;
+    margin-top: 29px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.testimonials__member-company {
+    margin-top: 11px;
+    font-size: 18px;
+    color: #f8c495;
+}
+
+.testimonials__member-text {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 21px;
+    font-style: italic;
+}
+
 
 /* TESTIMONIALS END */
-
-.testimonials
-/* FOOTER */
-
-
-/* FOOTER END */
