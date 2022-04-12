@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 *,
@@ -8,12 +9,21 @@ html {
     box-sizing: inherit;
 }
 
+* {
+    outline: 0 none !important;
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
     color: #ffffff;
+}
+
+h1,
+h2 {
+    font-weight: 700;
 }
 
 .wrapper {
@@ -29,7 +39,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
     background-color: #87509c;
 }
 
@@ -63,20 +72,39 @@ body {
     padding: 2px 12px;
 }
 
-.header__link:focus {
-    outline: 0 none !important;
+.header__home {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 12px;
     border-radius: 4px;
     background-color: #643a79;
 }
 
+
+/* HEADER END */
+
+
+/* MAIN */
+
+.intro {
+    text-align: center;
+    background-color: #87509c;
+    height: 600px;
+}
+
 .intro__title {
     text-align: center;
-    font-weight: 700;
     font-size: 42px;
     padding-top: 240px;
 }
 
 .intro__button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
     border: none;
     cursor: pointer;
     font-size: 18px;
@@ -86,18 +114,38 @@ body {
     padding: 20px 85px;
     text-decoration: none;
     text-align: center;
+    margin-top: 60px;
     font-weight: 600;
     letter-spacing: 1px;
     outline: none;
     color: #ffffff;
+    box-shadow: 0 5px #cf6e42;
     background-color: #eb7d4b;
 }
 
-
-/* HEADER END */
-
-
-/* MAIN */
+.intro__button:active {
+    background-color: #cf6e42;
+    transform: translateY(4px);
+    transform: translate(-50%, 0);
+}
 
 
 /* MAIN END */
+
+
+/* TESTIMONIALS */
+
+.testimonials {
+    text-align: center;
+    height: 900px;
+    background-color: #d74680;
+}
+
+
+/* TESTIMONIALS END */
+
+.testimonials
+/* FOOTER */
+
+
+/* FOOTER END */
