@@ -139,7 +139,7 @@ p {
 
 li,
 ul {
-    display: testimonials;
+    display: block;
     padding: 0;
 }
 
@@ -160,7 +160,7 @@ ul {
 
 .testimonials__text::after {
     content: "";
-    display: testimonials;
+    display: block;
     margin: 20px auto;
     width: 87px;
     height: 4px;
@@ -193,19 +193,19 @@ ul {
 }
 
 .testimonials__ul__item__img {
-    display: inline-testimonials;
+    display: inline-block;
     width: 90px;
     height: 90px;
     border-radius: 50%;
 }
 
 .testimonials__text__wrapper {
-    display: inline-testimonials;
+    display: inline-block;
     max-width: 350px;
     padding-left: 30px;
 }
 
-testimonialsquote {
+blockquote {
     margin: 0 0 1rem;
 }
 
@@ -233,3 +233,13 @@ em {
 
 
 /* TESTIMONIALS END */
+
+
+/* GET IN TOUCH */
+
+.getintouch {
+    background-color: #3c5499;
+    color: #ffffff;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}

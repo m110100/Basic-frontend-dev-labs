@@ -17,7 +17,7 @@ h4,
 h5,
 h6,
 p,
-testimonialsquote,
+blockquote,
 pre,
 a,
 abbr,
@@ -125,13 +125,13 @@ ul {
     list-style: none;
 }
 
-testimonialsquote,
+blockquote,
 q {
     quotes: none;
 }
 
-testimonialsquote:before,
-testimonialsquote:after,
+blockquote:before,
+blockquote:after,
 q:before,
 q:after {
     content: '';
