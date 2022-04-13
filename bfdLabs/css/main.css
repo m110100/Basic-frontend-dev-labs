@@ -139,7 +139,7 @@ p {
 
 li,
 ul {
-    display: block;
+    display: testimonials;
     padding: 0;
 }
 
@@ -150,7 +150,7 @@ ul {
     padding-top: 110px;
 }
 
-.block__text {
+.testimonials__text {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -158,9 +158,9 @@ ul {
     text-transform: uppercase;
 }
 
-.block__text::after {
+.testimonials__text::after {
     content: "";
-    display: block;
+    display: testimonials;
     margin: 20px auto;
     width: 87px;
     height: 4px;
@@ -168,7 +168,7 @@ ul {
     opacity: .15;
 }
 
-.block__text__p {
+.testimonials__text__p {
     font-weight: lighter;
     font-size: 18px;
     letter-spacing: 1px;
@@ -177,35 +177,35 @@ ul {
     text-align: center;
 }
 
-.block6__ul {
+.testimonials__ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.block6__ul__item {
+.testimonials__ul__item {
     margin: 50px;
 }
 
-.block6__ul__item__wrapper {
+.testimonials__ul__item__wrapper {
     display: flex;
     width: 445px;
 }
 
-.block6__ul__item__img {
-    display: inline-block;
+.testimonials__ul__item__img {
+    display: inline-testimonials;
     width: 90px;
     height: 90px;
     border-radius: 50%;
 }
 
-.block6__text__wrapper {
-    display: inline-block;
+.testimonials__text__wrapper {
+    display: inline-testimonials;
     max-width: 350px;
     padding-left: 30px;
 }
 
-blockquote {
+testimonialsquote {
     margin: 0 0 1rem;
 }
 
@@ -215,7 +215,7 @@ em {
     line-height: 1.5;
 }
 
-.block6__ul__item__wrapper h2 {
+.testimonials__ul__item__wrapper h2 {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -223,7 +223,7 @@ em {
     padding-bottom: 11px;
 }
 
-.block6__ul__item__wrapper h3 {
+.testimonials__ul__item__wrapper h3 {
     font-size: 18px;
     color: #fd9;
     font-weight: 400;
