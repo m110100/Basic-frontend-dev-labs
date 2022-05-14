@@ -150,15 +150,14 @@ ul {
     padding-top: 110px;
 }
 
-.testimonials__text {
+.testimonials__title {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    text-transform: uppercase;
 }
 
-.testimonials__text::after {
+.testimonials__title::after {
     content: "";
     display: block;
     margin: 20px auto;
@@ -168,8 +167,7 @@ ul {
     opacity: .15;
 }
 
-.testimonials__text__p {
-    font-weight: lighter;
+.testimonials__text {
     font-size: 18px;
     letter-spacing: 1px;
     padding-top: 10px;
@@ -189,7 +187,7 @@ ul {
 
 .testimonials__ul__item__wrapper {
     display: flex;
-    width: 445px;
+    width: 450px;
 }
 
 .testimonials__ul__item__img {
@@ -201,7 +199,7 @@ ul {
 
 .testimonials__text__wrapper {
     display: inline-block;
-    max-width: 350px;
+    max-width: 450px;
     padding-left: 30px;
 }
 
@@ -213,6 +211,8 @@ em {
     font-family: 'Titillium Web', sans-serif;
     font-style: italic;
     line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 .testimonials__ul__item__wrapper h2 {
@@ -242,4 +242,27 @@ em {
     color: #ffffff;
     padding-bottom: 120px;
     padding-top: 120px;
+}
+
+.getintouch__title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.getintouch__title::after {
+    content: "";
+    display: block;
+    margin: 20px auto;
+    width: 87px;
+    height: 4px;
+    background: #273a71;
+}
+
+.getintouch__text {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: center;
 }
