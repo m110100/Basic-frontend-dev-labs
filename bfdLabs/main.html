@@ -130,13 +130,16 @@
             <form action="Userform" class="getintouch__form">
                 <div class="getintouch__form-wrapper">
                     <div class="getintouch__form-wrapper-item">
-                        <input type="text" placeholder="Your Name" class="getintouch__form-item" id="name">
+                        <input type="text" placeholder="Your Name" required class="getintouch__form-item required" id="name">
+                    </div>
+                    <div class="getintouch__form-wrapper-item required">
+                        <input type="email" placeholder="Your Email" required class="getintouch__form-item required" id="email">
+                    </div>
+                    <div class="getintouch__form-wrapper-item required">
+                        <textarea class="getintouch_form-item-textarea required" placeholder="Your Message" required id="message" cols="30" rows="10"></textarea>
                     </div>
                     <div class="getintouch__form-wrapper-item">
-                        <input type="email" placeholder="Your Email" class="getintouch__form-item" id="email">
-                    </div>
-                    <div class="getintouch__form-wrapper-item">
-                        <textarea class="getintouch_form-item-textarea" placeholder="Your Message" id="message" cols="30" rows="10"></textarea>
+                        <input type="submit" class="getintouch_button" value="SEND MESSAGE">
                     </div>
                 </div>
             </form>

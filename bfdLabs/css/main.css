@@ -111,7 +111,9 @@ p {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    font-family: 'Titillium Web', sans-serif;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 13px;
     display: flex;
@@ -122,6 +124,7 @@ p {
     text-align: center;
     margin-top: 60px;
     font-weight: 600;
+    font-size: 18px;
     letter-spacing: 1px;
     outline: none;
     color: #ffffff;
@@ -271,6 +274,74 @@ em {
     text-align: center;
 }
 
+.getintouch__form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: 70px;
+}
+
+.getintouch__form-item {
+    font-family: 'Titillium Web', sans-serif;
+    width: 390px;
+    height: 40px;
+    margin: 20px;
+    padding: 25px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+}
+
+.getintouch__form-item::placeholder,
+.getintouch_form-item-textarea::placeholder {
+    color: #fff;
+}
+
+.getintouch_form-item-textarea {
+    font-family: 'Titillium Web', sans-serif;
+    width: 822px;
+    border: none;
+    height: 200px;
+    border-radius: 4px;
+    padding: 24px;
+    background-color: #273a71;
+    color: #fff;
+    font-weight: 500;
+}
+
+.getintouch_button {
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 85px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    color: #ffffff;
+    border-bottom: 4px solid #299ec5;
+    background-color: #30bae7;
+}
+
+.getintouch_button:active {
+    background-color: #299ec5;
+    transform: translateY(4px);
+    transform: translate(-50%, 0);
+}
+
 .main-footer {
     background-color: #344b8e;
 }
@@ -281,13 +352,20 @@ em {
 }
 
 .main-footer__ul__item {
-    padding: 20px 10px;
+    padding: 40px;
 }
 
 .main-footer__ul__item a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+}
+
+.main-footer__ul__item a:hover {
+    color: #30bae7;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
 #Backlight {
