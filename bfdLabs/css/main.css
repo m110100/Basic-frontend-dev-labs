@@ -270,3 +270,26 @@ em {
     padding-top: 25px;
     text-align: center;
 }
+
+.main-footer {
+    background-color: #344b8e;
+}
+
+.main-footer__ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-footer__ul__item {
+    padding: 20px 10px;
+}
+
+.main-footer__ul__item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#Backlight {
+    color: #30bae7;
+}
