@@ -1,68 +1,68 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Форма заполнения</title>
+    <title>Form1</title>
 </head>
+
 <body>
-    <table width="40%">
+    <table>
         <tr>
-            <td>
-                <form action="mailto:shindayoni@gmail.com" enctype="text/plain">
-                    <fieldset>
-                        <p><label for="ID_Number">Indentification Number:</label><br><input type="text"></p>
-                        <br>
-                        <div class="main-information">
-                            <p><label for="L_Name">Legal name:</label><br><input type="text" size="50"></p>
-                            <br>
-                            <p><label for="Adress_1">Adress 1:</label><br><input type="text" size="50"></p>
-                            <br>
-                            <p><label for="Adress_2">Adress 2:</label><br><input type="text" size="50"></p>
-                        </div>
-                        <br>
-                        <div class="country-information">
-                            <table width="97%">
-                                <tr>
-                                    <td><p><label for="City">City:</label><br><input type="text" size="20"></p></td>
-                                    <td><p><label for="State">State:</label><br><input type="text"></p></td>
-                                    <td><p><label for="Zip">Zip:</label><br><input type="text" size="20"></p></td>
-                                    <td>
-                                        <p><label for="Country">Country:</label><br>
-                                            <select>
-                                                <option value="Japan">Japan</option>
-                                                <option value="Korea">Korea</option>
-                                                <option value="China">China</option>
-                                                <option value="Russia">Russia</option>
-                                            </select>
-                                        </p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="contact-information">
-                            <table width="83%">
-                                <tr>
-                                    <td><p><label for="Phone">Phone:<br><input type="text" size="20"></label></p></td>
-                                    <td><p><label for="Email">Email:<br><input type="email" size="43"></label></p></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="buttons">
-                            <table align="right">
-                                <tr>
-                                    <td><input type="reset" value="Reset"></td>
-                                    <td><input type="submit" value="Submit"></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </fieldset>
-                </form>
+            <td colspan="4">
+                <p><label>Identification number:</label><br> <input type="text" size=100></p>
+                <p><label>Legal name:</label> <br><input type="text" size=100></p>
+                <p><label>Address 1:</label><br><input type="text" size=100></p>
+                <p><label>Address 2:</label><br><input type="text" size=100></p>
             </td>
         </tr>
+        <tr>
+            <td>
+                <p><label>City:</label><br><input type="text"></p>
+            </td>
+            <td>
+                <p><label>State:</label><br><input type="text"></p>
+            </td>
+            <td>
+                <p><label>Zip:</label><br><input type="text"></p>
+            </td>
+            <td>
+                <p>
+                    <label>Country:</label>
+                    <br>
+                    <select>
+                        <option>USA</option>
+                        <option>Russia</option>
+                        <option>UK</option>
+                        <option>Ukraine</option>
+                        <option>Belarus</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                        <option>South Korea</option>
+                    </select>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><label>Phone:</label><br><input type="tel"></p>
+            </td>
+            <td colspan="3">
+                <p><label>Email:</label><br><input size=74 type="email"></p>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="4">
+                <p>
+                    <input type="reset">
+                    <input type="submit">
+                </p>
+            </th>
+        </tr>
     </table>
+
 </body>
+
 </html>
