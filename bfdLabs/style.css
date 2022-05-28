@@ -1,47 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-body{
+body {
     margin: 0;
     background-color: rgba(30, 144, 255, 0.5);
     font-family: Roboto;
     overflow: hidden;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-family: Roboto;
 }
-button{
+
+button {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     cursor: pointer;
 }
-input{
+
+input {
     text-decoration: none;
     outline: none;
     border: 0px;
-    
 }
-h1{
+
+h1 {
     font-size: 64px;
     font-weight: 700;
 }
-h2{
+
+h2 {
     font-size: 36px;
 }
-h3{
+
+h3 {
     font-size: 24px;
 }
-h4{
+
+h4 {
     font-size: 16px;
 }
 
-.menu-wrap{
+.menu-wrap {
     visibility: hidden;
 }
-.navigation{
+
+.navigation {
     position: fixed;
     display: grid;
     grid-template-columns: 50% 8% 11% 8% 12% 10%;
@@ -51,83 +57,91 @@ h4{
     background-color: white;
     border-radius: 12px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-   
     margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6.5%;
     padding-left: 64px;
     padding-right: 64px;
-    
 }
-.home{
+
+.home {
     font-weight: 700;
 }
-.ill{
+
+.ill {
     font-weight: 500;
 }
-.disabled_btn{
+
+.disabled_btn {
     width: 127px;
     height: 50px;
-
     border: 2px solid #4443D0;
     font-weight: 700;
     background-color: white;
     color: #4443D0;
-   
 }
-.enabled_btn{
+
+.enabled_btn {
     width: 127px;
     height: 50px;
-
     border: 2px solid #4443D0;
     background-color: #4443D0;
     color: white;
-    
 }
-.head_block{
+
+.head_block {
     display: grid;
     grid-template-columns: 49% 1%;
     margin-left: 5%;
     align-items: center;
 }
-.content{
+
+.content {
     display: grid;
-    grid-template-rows: 200px 100px 80px; 
+    grid-template-rows: 200px 100px 80px;
     margin-top: 25%;
+    margin-left: 27px;
 }
-.content_h3{
+
+.content_h3 {
     font-weight: 400;
     width: 500px;
 }
-.content_join{
-    color: rgba(0, 0, 0, 0.5);;
+
+.content_join {
+    color: rgba(0, 0, 0, 0.5);
+    ;
     font-weight: 400;
 }
-.saly{
+
+.saly {
     width: 655px;
     height: auto;
     transform: rotate(-15.51deg);
 }
-form{
+
+form {
     display: grid;
     align-items: center;
     grid-template-rows: 0 128px;
 }
-.email{
+
+.email {
     border-radius: 10px;
     box-shadow: none;
     font-family: Roboto;
     width: 472px;
     height: 50px;
 }
-::placeholder{
+
+::placeholder {
     padding-left: 22px;
 }
+
 input:focus::placeholder {
     color: transparent;
-  }
+}
 
-.submit_btn{
+.submit_btn {
     width: 127px;
     height: 50px;
     background-color: #4140CD;
@@ -137,12 +151,15 @@ input:focus::placeholder {
     border-radius: 5px;
 }
 
+
 /* menu hamburger */
-i{
+
+i {
     visibility: hidden;
     width: 30px;
     height: 30px;
 }
+
 .hamburger {
     visibility: hidden;
     z-index: 100;
@@ -151,15 +168,16 @@ i{
     border: black solid 1px;
     background: white;
     cursor: pointer;
-  }
+}
 
-  .closeIcon {
+.closeIcon {
     display: none;
-  }
+}
 
-  .menu {
+.menu {
     visibility: hidden;
-    width: 1%;
+    width: 10%;
+    padding-bottom: 2%;
     transform: translateY(-113%);
     transition: transform 0.2s;
     top: 0;
@@ -171,86 +189,91 @@ i{
     background: black;
     color: white;
     list-style: none;
-  }
-  .menu_disabled{
+}
+
+.menu_disabled {
     visibility: hidden;
-  }
-  .menuItem{
+}
+
+.menuItem {
     color: white;
-  }
-  .showMenu {
+}
+
+.showMenu {
     transform: translateY(0);
-  }
+}
+
 
 /* menu hamburger */
 
 
 /* responsive start */
+
 @media (max-width:1343px) {
-    .navigation{
+    .navigation {
         grid-template-columns: 45% 8% 11% 8% 15% 10%;
     }
 }
+
 @media (max-width:1259px) {
-    h1{
+    h1 {
         font-size: 54px;
     }
-    h3{
+    h3 {
         font-size: 22px;
     }
-    .content{
+    .content {
         grid-template-rows: 160px 90px 80px;
     }
+}
 
-}
 @media (max-width:1101px) {
-body{
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-    h1{
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    h1 {
         font-size: 50px;
     }
-    h3{
+    h3 {
         font-size: 20px;
     }
-    .navigation{
+    .navigation {
         grid-template-columns: 35% 10% 14% 9% 18% 15%;
     }
-    .saly{
+    .saly {
         zoom: 80%;
     }
 }
 
 @media (max-width:941px) {
-   
-    h1{
+    h1 {
         font-size: 46px;
     }
-    h3{
+    h3 {
         font-size: 18px;
     }
-    .navigation{
+    .navigation {
         grid-template-columns: 25% 10% 15% 20% 18% 15%;
         margin-left: 3%;
     }
-    .saly{
+    .saly {
         zoom: 70%;
     }
 }
 
 @media (max-width:818px) {
-    h1{
+    h1 {
         font-size: 40px;
     }
-    h3{
+    h3 {
         font-size: 18px;
     }
-    .navigation{
+    .navigation {
         grid-template-columns: 20% 10% 18% 12% 25% 15%;
         margin-left: 2%;
     }
-    .content{
+    .content {
         text-align: left;
         margin-right: 5%;
         margin-top: 20%;
@@ -259,53 +282,49 @@ body{
         grid-template-rows: 140px 50px 100px 100px;
         justify-content: center;
     }
-   
-    .head_block{
+    .head_block {
         grid-template-columns: auto;
-      
     }
-    .saly{
+    .saly {
         zoom: 80%;
         margin-left: 5%;
     }
 }
+
 @media (max-width: 717px) {
-   
-   .logo{
-       position: fixed;
-       
-   }
-    .navigation{
+    .logo {
+        position: fixed;
+    }
+    .navigation {
         margin-left: 0;
         width: 100%;
         margin-top: 0;
     }
-    .content{
+    .content {
         margin-left: 10%;
     }
-    .home{
+    .home {
         visibility: hidden;
     }
-    .ill{
+    .ill {
         visibility: hidden;
     }
-    .disabled_btn{
-        visibility: hidden;
-    }    
-    .enabled_btn{
+    .disabled_btn {
         visibility: hidden;
     }
-    i{
+    .enabled_btn {
+        visibility: hidden;
+    }
+    i {
         visibility: visible;
     }
-    .hamburger{
+    .hamburger {
         position: fixed;
         visibility: visible;
         margin-left: 75%;
         margin-top: 1%;
     }
-  
-    .menu{
+    .menu {
         position: fixed;
         visibility: visible;
         background-color: #006699;
@@ -313,24 +332,23 @@ body{
         height: 7rem;
         left: 69%;
     }
-    .menuItem{
+    .menuItem {
         color: white;
-        }
-    .saly{
+    }
+    .saly {
         margin-left: 1%;
         zoom: 80%;
     }
-    
 }
+
 @media (max-width: 573px) {
-    
-    .hamburger{
+    .hamburger {
         right: 4rem;
     }
 }
+
 @media (max-width: 545px) {
-   
-    .hamburger{
+    .hamburger {
         position: fixed;
     }
 }
